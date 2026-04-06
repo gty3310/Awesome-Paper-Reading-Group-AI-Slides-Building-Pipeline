@@ -37,7 +37,7 @@ in ChatGPT / Claude`"]
 and talk through outline
 in ChatGPT voice mode`"]
     C --> D["`Compress outline`"]
-    D --> E{"`Topic does not require illustration,
+    D --> E{"`Topic doesn't need illustration,
 or slides need clickable URLs
 or inserted images`"}
     E -- No --> G["`Upload support reading
@@ -84,7 +84,7 @@ Ask ChatGPT to turn that into:
 ---
 
 ### 3. Compress the outline
-If the outline is too long, ask ChatGPT to shorten it by about **30–40%**.
+If the outline is too long, ask ChatGPT to shorten it to 10,000 characters, that is the limit for NotebookLM
 
 Goal:
 - get to **one clean text version** of the whole deck before generating slides
@@ -123,27 +123,7 @@ Workflow:
 
 ---
 
-## NotebookLM Use Case
-
-### 5. Use NotebookLM to learn faster
-Upload the paper or source material into NotebookLM.
-
-Use it to:
-- understand the paper quickly
-- generate explanations for subtopics
-- test whether the teaching flow makes sense
-- compare how different concepts connect
-- identify what needs simpler explanation for the audience
-
-This is especially useful for:
-- paper reading groups
-- technical study groups
-- research-heavy sessions
-- topics that need layered explanation
-
----
-
-### 6. Generate the main deck
+### 5. Generate the main deck in Gamma.app or NotebookLM
 Use AI to generate most of the deck structure and teaching flow using:
 - the topic
 - the source material
@@ -156,7 +136,9 @@ Goal:
 
 ---
 
-### 7. Manually add the final 20%
+### 6. Manually add the final 20%
+Note that if this is in NotebookLM, you cannot manually add image or clickable urls, you can only do so in Gamma.app.
+
 Add these yourself:
 - custom images
 - diagrams AI misses
@@ -175,32 +157,9 @@ Engineers usually want at least:
 - one implementation reference
 - one concrete practical takeaway
 
----
-
-### 8. Revise fast with ChatGPT
-Use ChatGPT to revise instead of rewriting manually.
-
-Example requests:
-- make this shorter
-- make this clearer
-- add more technical depth
-- improve the analogy
-- add one discussion question
-- make this more beginner-friendly
-- make this more rigorous for researchers
 
 ---
 
-### 9. Final quality check
-Before presenting, make sure:
-- the flow is easy to follow
-- the session fits in time
-- there is at least one practical repo or code reference
-- there is one strong takeaway
-- there is one prompt for discussion or self-research
-- the visuals support the hardest ideas clearly
-
----
 
 ## Practical Notes
 
@@ -223,8 +182,8 @@ Best for:
 #### Gamma.app
 Best for:
 - fast generation of simple decks
-- text-based slide creation
-- quick first drafts
+- text-based slide creation without very hard concept illustration
+- deck with custom image and charts
 
 #### NotebookLM
 Best for:
@@ -266,7 +225,7 @@ Best for:
 
 ## System Prompt
 
-Paste your topic at the bottom of this prompt before using it.
+IMPORTANT NOTE: Paste your topic at the bottom of this prompt before using it.
 
 ```text
 Role: You are a top-tier Technical Strategist and Researcher.

@@ -31,16 +31,26 @@ Use:
 
 ```mermaid
 flowchart TD
-    A["Pick topic"] --> B["Do deep research<br/>in ChatGPT / Claude"]
-    B --> C["Learn topic<br/>and talk through outline<br/>in ChatGPT voice mode"]
-    C --> D["Compress outline"]
-    D --> E{"Needs custom visuals,<br/>images, or inserted links?"}
-    E -- No --> F["Generate deck<br/>in Gamma.app"]
-    E -- Yes --> G["Upload supporting<br/>materials to NotebookLM"]
-    G --> H["Generate explanations<br/>and deck structure"]
-    F --> I["Manual polish"]
+    A["`Pick topic`"] --> B["`Do deep research
+in ChatGPT / Claude`"]
+    B --> C["`Learn the topic
+and talk through outline
+in ChatGPT voice mode`"]
+    C --> D["`Compress outline`"]
+    D --> E{"`Topic does not require illustration,
+or slides need clickable URLs
+or inserted images`"}
+    E -- No --> G["`Upload support reading
+materials to NotebookLM`"]
+    E -- Yes --> F["`Generate deck
+in Gamma.app`"]
+    G --> H["`Generate explanations
+and deck structure`"]
+    F --> I["`Manual polish`"]
     H --> I
-    I --> J["Final quality check"]
+    I --> J["`Final quality check`"]
+```
+
 ---
 
 ## Full Workflow

@@ -1,4 +1,4 @@
-# Slide Creation Workflow with Deep Research + ChatGPT + Gamma + NotebookLM
+# Slide Creation Workflow with Deep Research + ChatGPT + Claude + Gamma + NotebookLM
 
 ## Goal
 Create strong study group or class slides quickly by combining:

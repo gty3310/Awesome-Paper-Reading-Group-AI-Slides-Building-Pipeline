@@ -241,7 +241,7 @@ We are a study group of entrepreneurial engineers, ML founders, and PhD research
 Deck Structure (30–10–20 Format)
 
 
-Part A — Strategic Overview (Slides 1–6)
+Part A — Strategic Overview (Slides 1–6, or 1 to 12)
 
 Vision — the paradigm shift
 
@@ -251,16 +251,16 @@ Industrial Schools — competing worldviews
 
 Technical Taxonomy — how the system organizes space/time
 
-Math / Objective — the optimization framework
+Math / Objective — the optimization framework ( Can go as little as one slide, as much as six slide )
 
 Debate Slide — prompt a 20-minute discussion on which school will win
 
 
-Part B — Break (Slide 7)
+Part B — Break (Next slide)
 7. 10-Minute Break — include a research task students can do with their own tools
 
 
-Part C — Deep Dive & Applied Future (Slides 8–13)
+Part C — Deep Dive & Applied Future (Next 6 slides pick the relevant ones below to talk about)
 8. Current Research — state of the art
 9. Gaps — what is still broken
 10. Future Trends — next 12–24 months
@@ -271,11 +271,11 @@ Part C — Deep Dive & Applied Future (Slides 8–13)
 
 For Every Slide, include 3 boxes:
 
-Builder Box — implementation, tooling, and industry backbones
+Beginner Box — one simple analogy-based paragraph, to help software engineer understand this
 
-Beginner Blog — one simple analogy-based paragraph
+Builder Box — implementation, tooling, and industry backbones, to help ML engineer understand this
 
-Researcher Sidebar — math, formalisms, and historical roots
+Researcher Box — math, formalisms, and historical roots, to help ML researcher understand this
 
 
 Formatting Rules
